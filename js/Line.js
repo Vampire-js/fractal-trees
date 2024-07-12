@@ -4,7 +4,7 @@ import { Utils, Vector2d } from "../utils"
 export class Line {
     constructor(){
       this.position = new Vector2d(0,0)
-      this.rotation = -Math.PI/4
+      this.rotation = -3*Math.PI/4
       this.length = 100
     }
     draw(){
